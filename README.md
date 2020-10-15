@@ -1,24 +1,22 @@
 # stepik-tours
-Установка проекта
+#### Установка проекта
 
-установить версию python
-
-создать виртуальное окружение
-
-python -m venv venv
-
-активировать виртуальное окружение
-
+- установить версию python
+- создать виртуальное окружение 
+```shell script
+python3.8 -m venv venv
+```
+- активировать виртуальное окружение
+```shell script
 cd venv/bin/
-
 activate
-
-установить зависимости
-
+```
+- установить зависимости
+```shell script
 pip install -r requirements.txt
-
-запустить django-проект
-
+```
+- запустить тестовый django-проект
+```shell script
 python manage.py runserver
-
-открыть в браузере http://localhost:8000
+```
+- открыть в браузере http://localhost:8000 
