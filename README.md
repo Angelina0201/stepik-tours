@@ -4,11 +4,11 @@
 - установить версию python
 - создать виртуальное окружение 
 ```shell script
-python3.8 -m venv venv
+python -m venv venv
 ```
 - активировать виртуальное окружение
 ```shell script
-cd venv/bin/
+cd venv/bin/scripts
 activate
 ```
 - установить зависимости
